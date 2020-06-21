@@ -33,7 +33,7 @@ readme = open('README.rst').read()
 history = open('HISTORY.rst').read().replace('.. :changelog:', '')
 
 install_requirements = [
-    'Django>1.7',
+    'Django==2.1',
     'josepy',
     'requests'
 ]
